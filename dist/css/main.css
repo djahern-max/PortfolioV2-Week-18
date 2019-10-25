@@ -9,7 +9,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(/background1.jpg);
+    background: url(../img/portrait.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
