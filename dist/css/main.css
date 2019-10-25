@@ -8,11 +8,11 @@ body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
-  bodybg-img {
-    background: url(../img/background.jpg);
+  body#bg-img {
+    background: url(/background1.jpg);
     background-attachment: fixed;
     background-size: cover; }
-    bodybg-img:after {
+    body#bg-img:after {
       content: '';
       position: absolute;
       top: 0;
@@ -20,7 +20,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(68, 68, 68, 0.5); }
+      background: rgba(68, 68, 68, 0.7); }
 
 h1,
 h2,
@@ -37,6 +37,9 @@ h3 {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(73, 73, 73, 0.5); }
+
+.skillsDescription {
+  color: #fff; }
 
 a {
   color: #fff;
@@ -57,7 +60,7 @@ main {
     margin-top: 1rem; }
     main .icons a {
       padding: 0.4rem;
-      transition: all 0.5s ease-in-out; }
+      transition: all 0.5s ease-out; }
       main .icons a:hover {
         color: #eece1a; }
   main#home {

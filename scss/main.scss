@@ -1,6 +1,5 @@
 @import 'config';
 
-
 * {
     box-sizing: border-box;
 }
@@ -32,6 +31,10 @@ h3 {
         padding: 0.2rem 1rem;
         background: rgba(lighten($primary-color, 2), 0.5);
     }
+}
+
+.skillsDescription {
+    color: #fff;
 }
 
 a {
@@ -73,5 +76,5 @@ main {
         h1 {
             margin-top: 20vh;
         }
-    }
+}
 }
