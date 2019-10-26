@@ -43,7 +43,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: 0.9;
+    // opacity: 1.0;
     visibility: hidden;
   
     &.show {
@@ -90,9 +90,10 @@
       .portrait {
         width: 250px;
         height: 250px;
-        background: url('../img/portrait.jpg');
+        background: url('../img/LinkedInPortrait.png');
         border-radius: 50%;
         border: solid 3px $secondary-color;
+       
       }
     }
   
