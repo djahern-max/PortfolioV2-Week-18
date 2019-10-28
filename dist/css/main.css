@@ -235,6 +235,10 @@ main {
   color: #fff;
   height: 60px; }
 
+a {
+  color: #fff;
+  text-decoration: underline; }
+
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
